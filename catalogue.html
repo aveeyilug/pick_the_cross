@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pick The Cross</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Главная страница -->
+    <div class="wrapper">
+      <!-- Шапка -->
+      <header class="header">
+        <div class="header-content container">
+          <div class="header-content-left">
+            <!-- Логотип -->
+            <div class="header-content-left-logo">
+              <img src="assets/icons/logo.png" alt="" />
+            </div>
+            <!-- Навигация -->
+            <div class="header-content-left-nav">
+              <a href="welcome.html">Главная</a>
+              <a href="catalogue.html">Каталог</a>
+              <a href="#">Акции</a>
+              <a href="#">Блог</a>
+            </div>
+          </div>
+          <!-- Кнопки -->
+          <div class="header-content-right">
+            <!-- Избранное -->
+            <a href="#">
+              <div class="header-content-right-favourite"></div>
+            </a>
+            <!-- Корзина -->
+            <a href="basket.html">
+              <div class="header-content-right-basket">
+                <!-- Иконка корзины -->
+                <div class="header-content-right-basket-img">
+                  <img src="assets/icons/basket.png" alt="" />
+                </div>
+                <!-- Сумма в корзине -->
+                <div class="header-content-right-basket-txt">
+                  <h3>Всего:</h3>
+                  <p>46 000 ₽</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- Блоки -->
+      <main class="main">
+        <!-- Каталог -->
+        <div class="main-popular">
+          <div class="main-popular-content container" id="main-popular-content">
+            <!-- Хлебные крошки -->
+            <div class="main-popular-content-crumbs">
+              <a href="welcome.html">Главная</a>
+              <p>></p>
+              <a href="catalogue.html" class="a-active">Каталог</a>
+            </div>
+            <!-- Заголовок -->
+            <div class="main-catalogue-content-title title">
+              <h2>Каталог</h2>
+              <!-- Поиск -->
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Поиск по каталогу"
+              />
+            </div>
+            <div class="main-catalogue-content-categories-select">
+              <!-- Выбор категории -->
+              <div class="main-catalogue-content-categories">
+                <a href="catalogue.html" class="a-active">Все</a>
+                <a href="catalogue.html">Для него</a>
+                <a href="catalogue.html">Для нее</a>
+              </div>
+              <select name="select" id="select">
+                <option value="select-1">По популярности</option>
+                <option value="select-2">По наименованию</option>
+                <option value="select-3">По цене</option>
+              </select>
+            </div>
+
+            <!-- Карточки -->
+            <div class="main-popular-content-menu">
+              <!-- 1 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-1.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Air Jordan SE GS Paint Drip (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37.5 + 4</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>21 200 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-2.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Air Jordan</h3>
+                  <!-- Название -->
+                  <h4>
+                    Air Jordan 1 Low Travis Scott OG SP Black Phantom (Чёрный)
+                  </h4>
+                  <!-- Размеры -->
+                  <p>36, 40, 40.5 + 3</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>29 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-3.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Низкие кроссовки Adidas Samba Vegan White Gum (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>21 500 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-4.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Air Jordan</h3>
+                  <!-- Название -->
+                  <h4>Air Jordan 4 Union LA X Guava Ice (Разноцветный)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37.5 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>69 600 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-5.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>New Balance</h3>
+                  <!-- Название -->
+                  <h4>New Balance 2002R Gore-Tex Magnet Mood Indigo (Серый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>25 900 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="basket.html">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="#">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 6 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-6.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike Dunk Low SB Mummy (Бежевый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>27 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="basket.html">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="#">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 7 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                ><div class="main-popular-content-card-img">
+                  <img src="assets/images/wares/ware-7.png" alt="" /></div
+              ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike Dunk High SP Syracuse (2021) (Оранжевый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37.5 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>25 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 8 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-8.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>
+                    Nike Dunk Low Supreme x SB 'Rammellzee' (Разноцветный)
+                  </h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>25 500 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 9 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-9.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Air Jordan</h3>
+                  <!-- Название -->
+                  <h4>Air Jordan 5 Low Expression (Разноцветный)</h4>
+                  <!-- Размеры -->
+                  <p>40, 40.5, 41 +6</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>24 900 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 10 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-10.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike Air More Uptempo Cobalt Bliss (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37.5 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>24 900 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 11 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-11.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Adidas</h3>
+                  <!-- Название -->
+                  <h4>Adidas Yeezy 700 V3 Safflower (2020) (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>38, 38.5, 39 + 8</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>25 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 12 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-12.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>New Balance</h3>
+                  <!-- Название -->
+                  <h4>New Balance 550 Beige Vintage Indigo (Бежевый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 4</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 300 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 13 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-13.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike Dunk Low Off White X Lot 45 Of 50 (Серый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37.5 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>27 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 14 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-14.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Adidas</h3>
+                  <!-- Название -->
+                  <h4>Adidas Forum Low X Home Alone sneakers (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>20 300 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 15 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-15.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike GS Tunnel Walk (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>24 500 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 16 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-16.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Air Jordan</h3>
+                  <!-- Название -->
+                  <h4>Air Jordan Air Jordan 13 French Blue (Белый)</h4>
+                  <!-- Размеры -->
+                  <p>39, 40, 40.5 + 8</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>29 600 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 17 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-17.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Converse</h3>
+                  <!-- Название -->
+                  <h4>
+                    Converse Chuck 70 High X Patta x Experemental Jetset x Chack
+                    70 High Psychogeographic Practice (Белый)
+                  </h4>
+                  <!-- Размеры -->
+                  <p>35, 36, 36.5 + 14</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>21 200 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 18 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-18.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Vans</h3>
+                  <!-- Название -->
+                  <h4>Vans Knu Skool Pink Glo (Розовый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>21 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 19 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-19.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>New Balance</h3>
+                  <!-- Название -->
+                  <h4>New Balance 725V1 Dark Grey (Серый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 13</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 400 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 20 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-20.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Adidas</h3>
+                  <!-- Название -->
+                  <h4>
+                    Adidas Gazelle Sean Wotherspoon Indoor Kaleidoscopic Lens
+                    (Разноцветный)
+                  </h4>
+                  <!-- Размеры -->
+                  <p>35.5, 36, 36.5 + 10</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 21 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-21.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Adidas</h3>
+                  <!-- Название -->
+                  <h4>Adidas Campus 00s Pink Strata White (Розовый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 22 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-22.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Converse</h3>
+                  <!-- Название -->
+                  <h4>Converse Run Star Legacy CX Sun Sunshine (Желтый)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 500 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 23 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-23.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Converse</h3>
+                  <!-- Название -->
+                  <h4>
+                    Converse Motion Platform Ombre Slate SageLight Silver
+                    (Серый)
+                  </h4>
+                  <!-- Размеры -->
+                  <p>35, 36, 36.5 + 14</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>22 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 24 карточка -->
+              <div class="main-popular-content-card">
+                <!-- Фото товара -->
+                <a href="air-jordan-13-french-blue.html"
+                  ><div class="main-popular-content-card-img">
+                    <img src="assets/images/wares/ware-24.png" alt="" /></div
+                ></a>
+                <!-- Описание товара -->
+                <div class="main-popular-content-card-txt">
+                  <!-- Категория -->
+                  <h3>Nike</h3>
+                  <!-- Название -->
+                  <h4>Nike Dunk Low Sandy Bodecker (Разноцветный)</h4>
+                  <!-- Размеры -->
+                  <p>36, 36.5, 37,5 + 12</p>
+                  <div class="main-popular-content-card-info">
+                    <!-- Цена -->
+                    <div class="main-popular-content-card-info-price">
+                      <p>29 000 ₽</p>
+                    </div>
+                    <!-- Кнопки -->
+                    <div class="main-popular-content-card-info-buttons">
+                      <!-- Избранное -->
+                      <a href="#">
+                        <div class="header-content-right-favourite"></div>
+                      </a>
+                      <!-- Корзина -->
+                      <a href="basket.html">
+                        <div class="header-content-right-basket">
+                          <div class="header-content-right-basket-img">
+                            <img src="assets/icons/basket.png" alt="" />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-pagination">
+              <a href="#" class="pagination-active pagination-number">1</a>
+              <a href="#" class="pagination-number">2</a>
+              <a href="#" class="pagination-number">3</a>
+              <a href="#" class="pagination-number">4</a>
+              <a href="#" class="pagination-number">5</a>
+              <a href="#" class="pagination-number">...</a>
+              <a href="#" class="pagination-btn">Больше</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- Подвал -->
+      <!-- Подвал -->
+      <footer class="footer">
+        <div class="footer-content container">
+          <!-- Навигация -->
+          <div class="footer-content-nav">
+            <h3>Pick the cross</h3>
+            <div class="footer-content-nav-menu">
+              <a href="welcome.html">Главная</a>
+              <a href="#main-popular-content">Популярное</a>
+              <a href="catalogue.html">Каталог</a>
+              <a href="#">Акции</a>
+              <a href="#">Блог</a>
+            </div>
+            <a href="#"><img src="assets/icons/up.png" alt="" /></a>
+          </div>
+          <!-- Покупателям -->
+          <div class="footer-content-customers">
+            <h3>Покупателям</h3>
+            <div class="footer-content-customers-menu">
+              <a href="#">Как покупать</a>
+              <a href="#">Гарантия подлинности</a>
+              <a href="#">Безопасная сделка</a>
+              <a href="#">Доставка и возврат</a>
+              <a href="#">Политика конфиденциальности</a>
+            </div>
+          </div>
+          <!-- Помощь и поддержка -->
+          <div class="footer-content-help">
+            <h3>Помощь и поддержка</h3>
+            <div class="footer-content-help-menu">
+              <!-- Горячая линия -->
+              <div class="footer-content-help-menu-item">
+                <p>Горячая линия</p>
+                <a href="tel:+78007000008">+7 (800) 700-00-08</a>
+              </div>
+              <!-- Телефон -->
+              <div class="footer-content-help-menu-item">
+                <p>Телефон:</p>
+                <a href="tel:+79655011150">+7 (965) 501-11-50</a>
+              </div>
+              <!-- Почта -->
+              <div class="footer-content-help-menu-item">
+                <p>Почта:</p>
+                <a href="mailto:support@pickthecross">support@pickthecross</a>
+              </div>
+              <!-- Адрес -->
+              <div class="footer-content-help-menu-item">
+                <p>Адрес: 422900, г. Казань, ул. Галеева, д. 3</p>
+              </div>
+              <!-- Карта -->
+              <div class="footer-content-help-menu-item">
+                <a href="#">Найти нас на карте</a>
+              </div>
+            </div>
+          </div>
+          <!-- Подписка -->
+          <div class="footer-content-subscription">
+            <h3>Подписка</h3>
+            <div class="footer-content-subscription-menu">
+              <form>
+                <input
+                  type="email"
+                  name="subscription"
+                  id="mail"
+                  placeholder="e-mail"
+                />
+                <a href="#"><img src="assets/icons/arrow.png" alt="" /></a>
+              </form>
+              <p>
+                Получайте уведомления о новых поступлениях и скидках без спама
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-line container">
+          <img src="assets/icons/line.png" alt="" />
+        </div>
+        <div class="footer-content container">
+          <div class="footer-content-txt">
+            <p>©aveeyilug, 2024. Все права защищены</p>
+          </div>
+          <div class="footer-content-social">
+            <a href="#"><img src="assets/icons/vk.png" alt="" /></a>
+            <a href="#"><img src="assets/icons/telegram.png" alt="" /></a>
+            <a href="#"><img src="assets/icons/youtube.png" alt="" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
